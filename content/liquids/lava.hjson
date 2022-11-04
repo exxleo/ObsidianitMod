@@ -1,0 +1,9 @@
+type: liquid
+name: Лава
+color: FF4014FF
+temperature: 2
+flammability: 1
+heatCapacity: 0
+viscosity: 0.75
+explosiveness: 0.5
+effect: melting

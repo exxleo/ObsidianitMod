@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Плавильня ксеолита
+description: Обрабатывает ксеолит
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 80
+upgradeEffect: none
+consumes: {
+  power: 1.9
+  items: {
+    items: [
+      xeolyte/2
+    ]
+  }
+}
+requirements: [
+  lead/90
+  copper/200
+  Cobalt/40
+  titanium/300
+]
+category: crafting
+research: Cobalt-Smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: xeolyteobr/1

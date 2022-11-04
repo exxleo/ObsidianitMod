@@ -1,0 +1,14 @@
+name: Большая стена из киберсплава
+description: Очень прочная стена. Идеально подходит для защиты базы от противников, периодически выпускает электрический заряд при ударе.
+type: Wall
+health: 4000
+size: 2
+requirements: [
+  cybersteel/16
+  surge-alloy/12
+]
+category: defense
+research: cybersteel-wall
+lightningChance: 0.05
+lightningDamage: 15
+lightningLength: 17

@@ -1,0 +1,10 @@
+name: Обсидианитовая стена
+description: Стена из обсидианита, хорошо подойдёт для защиты турелей и ядра
+type: Wall
+health: 560
+size: 1
+requirements: [
+  Obsidianit/6
+]
+category: defense
+research: titanium-wall

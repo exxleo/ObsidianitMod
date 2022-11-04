@@ -1,0 +1,8 @@
+type: material
+name: Иридиум
+description: Тяжелый и прочный материал.
+hardness: 4
+cost: 3
+color: C94ECFFF
+research: thorium
+radioactivity: 0.2

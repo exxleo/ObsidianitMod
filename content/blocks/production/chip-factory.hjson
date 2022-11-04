@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Фабрика процессоров
+description: Очень медленно создает центральные процессоры для продвинутых юнитов. Использует много ресурсов и потребляет большое количество энергии.
+details: Чипы используются для создания продвинутых юнитов.
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+itemCapacity: 30
+craftTime: 2400
+upgradeEffect: none
+consumes: {
+  power: 15
+  items: {
+    items: [
+      surge-alloy/3
+      silicon/6
+      Iridium/3
+      phase-fabric/4
+      xeolyteobr/6
+    ]
+  }
+}
+requirements: [
+  Iridium/120
+  silicon/70
+  xeolyteobr/80
+  surge-alloy/40
+]
+category: crafting
+research: alloy-smelter
+idleSound: machine
+idleSoundVolume: 1
+outputItem: aichip/1

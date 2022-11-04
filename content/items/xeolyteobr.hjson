@@ -1,0 +1,7 @@
+type: material
+name: ксеолит
+description: обработанная версия ксеолита
+hardness: 4
+cost: 4
+color: 048411FF
+research: xeolyte

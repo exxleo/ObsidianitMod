@@ -1,0 +1,40 @@
+type: Reconstructor
+name: Pro additive reconstructor
+health: 500
+size: 3
+itemCapacity: 20
+constructTime: 800
+
+requirements: [
+    copper/320
+    lead/180
+    silicon/120
+    Iridium/80
+]
+
+upgrades: [
+    [arduo, blist],
+    [relar, lincers]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 45
+            },
+            {
+                item: Iridium
+                amount: 20
+            },
+            {
+                item: aichip
+                amount: 1
+            }
+        ]
+    }
+    power: 2
+}
+category: units
+research: pro-factory

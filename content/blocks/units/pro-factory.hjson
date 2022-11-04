@@ -1,0 +1,37 @@
+type: UnitFactory
+name: Фабрика продвинутых юнитов
+description: Создает продвинутых юнитов.
+size: 3
+health: 320
+consumes: {
+  power: 2
+}
+plans: [
+  {
+  unit: arduo
+  requirements: [
+    silicon/30
+    Iridium/10
+    aichip/1
+  ]
+  time: 600
+  },
+  {
+  unit: relar
+  requirements: [
+    silicon/25
+    metaglass/20
+    titanium/20
+    aichip/1
+  ]
+  time: 500
+  }
+]
+requirements: [
+  silicon/120
+  titanium/100
+  thorium/80
+  Iridium/60
+]
+category: units
+research: ground-factory

@@ -1,0 +1,19 @@
+name: Бронированное хранилище
+description: Большое и прочное хранилище.
+type: storageBlock
+itemCapacity: 4000
+solid	: true
+destructible	: true
+update	: false
+hasItems: True
+health: 2400
+size: 4
+requirements: [
+  xeolyteobr/200
+  Iridium/120
+  plastanium/80
+  thorium/100
+  cybersteel/40
+]
+category: effect
+research: xeovault

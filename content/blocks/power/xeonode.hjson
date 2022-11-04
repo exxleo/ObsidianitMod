@@ -1,0 +1,20 @@
+type: PowerNode
+name: Ксеолитовый силовой узел
+description: Усовершенствованный силовой узел, с большей дальностью. Способен накапливать энергию во время ее избытка
+laserRange: 8
+maxNodes: 15
+size: 1
+health: 80
+insulated: false
+hasPower: true
+outputsPower: true
+consumesPower: true
+consumes: {
+  powerBuffered: 1000
+}
+requirements: [
+  lead/3
+  xeolyteobr/2
+]
+category: power
+research: power-node

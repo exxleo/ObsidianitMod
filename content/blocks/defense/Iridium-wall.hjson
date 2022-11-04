@@ -1,0 +1,10 @@
+name: Иридиумовая стена
+description: Очень крепкая стена. Идеально подойдет для защиты турелей и ядра.
+type: Wall
+health: 900
+size: 1
+requirements: [
+  Iridium/6
+]
+category: defense
+research: Obsidianit-wall

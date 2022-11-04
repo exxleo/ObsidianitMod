@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Ксеолитовый тигель
+description: Обрабатывает больше ксеолита чем плавильня, использует воду в качестве охлаждаюдей жидкости.
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 80
+upgradeEffect: none
+consumes: {
+  power: 6
+  items: {
+    items: [
+      xeolyte/5
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.05
+  }
+}
+requirements: [
+  titanium/70
+  silicon/60
+  xeolyteobr/50
+  Iridium/30
+]
+category: crafting
+research: xeolyte-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: xeolyteobr/3

@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Промывочный завод
+description: Пропускает через себя огромное количество воды, извлекая из неё металлолом.
+liquidCapacity: 100
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 120
+upgradeEffect: none
+consumes: {
+  power: 3.4
+  liquid: {
+    liquid: water
+    amount: 0.5
+  }
+}
+requirements: [
+  copper/80
+  graphite/50
+  silicon/60
+  metaglass/40
+]
+category: crafting
+research: melter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: scrap/1

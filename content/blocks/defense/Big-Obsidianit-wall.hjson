@@ -1,0 +1,10 @@
+name: Большая Обсидианитовая стена
+description: Стена из обсидианита, хорошо подойдёт для защиты турелей и ядра, размещается на нескольких плитках
+type: Wall
+health: 2240
+size: 2
+requirements: [
+  Obsidianit/24
+]
+category: defense
+research: Obsidianit-wall

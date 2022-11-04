@@ -1,0 +1,30 @@
+type: GenericSmelter
+name: Плавильня киберсплава
+description: Сплавляет кремний, иридиум и титан для получения киберстали
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 90
+upgradeEffect: none
+consumes: {
+  power: 6
+  items: {
+    items: [
+      silicon/3
+      Iridium/2
+      titanium/3
+    ]
+  }
+}
+requirements: [
+  Iridium/50
+  silicon/80
+  graphite/40
+  xeolyteobr/70
+]
+category: crafting
+research: xeolyte-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: cybersteel/1

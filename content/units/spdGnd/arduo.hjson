@@ -1,0 +1,32 @@
+name: Arduo
+description: Shoots exhausting laser beams at enemies, healing himself in the process
+type: mech
+speed: 0.4
+health: 140
+armor: 1
+hitSize: 5
+targetAir: true
+range: 56
+weapons: [
+    {
+        name: arduo-shotgun
+        reload: 9
+        top: false
+        shots: 2
+        spacing: 2
+        alternate: true
+        mirror: true
+        bullet: {
+            type: SapBulletType
+            sapStrength: 0.6
+            length: 40
+            damage: 10
+            width: 0.4
+            lifetime: 30
+            shootEffect: shootSmall
+            hitColor: bf92f9
+            color: bf92f9
+        }
+    }
+]
+research: pro-factory

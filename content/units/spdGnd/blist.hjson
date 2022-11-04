@@ -1,0 +1,47 @@
+type: legs
+name: Blist
+description: Shoots artillery shells and exhausting laser beams at enemies, repairing himself in the process.
+speed: 0.5
+health: 600
+range: 80
+hitSize: 12
+rotateSpeed: 2.7
+weapons: [
+    {
+        name: blist-middle-gun
+        reload: 10
+        x: 9
+        y: 2
+        top: true
+        ejectEffect: casing1
+        bullet: {
+          type: SapBulletType
+          length: 25
+          damage: 12
+          width: 0.3
+          hitColor: bf92f9
+          color: bf92f9
+        }
+          
+    },
+    {
+        name: blist-artillery
+        reload: 60
+        shots: 1
+        spacing: 5
+        shake: 2
+        inaccuracy: 10
+        velocityRnd: 0.3
+        x: 0
+        y: -1
+        rotate: true
+        rotateSpeed: 5
+        top: true
+        ejectEffect: casing1
+        bullet: artilleryExplosive
+        alternate: false
+        mirror: false
+        shootSound: artillery
+    }
+]
+research: arduo

@@ -1,0 +1,39 @@
+type: Reconstructor
+name: Pro multiplicative reconstructor
+health: 1280
+size: 5
+itemCapacity: 30
+constructTime: 300
+requirements: [
+    lead/850
+    silicon/400
+    thorium/650
+    cybersteel/200
+]
+
+upgrades: [
+    [blist, dreadle]
+]
+
+consumes: {
+    items: {
+        items: [
+            {
+                item: silicon
+                amount: 120
+            },
+            {
+                item: titanium
+                amount: 100
+            },
+            {
+                item: thorium
+                amount: 80
+            },
+            aichip/5
+        ]
+    }
+    power: 9
+}
+category: units
+research: pro-additive-reconstructor

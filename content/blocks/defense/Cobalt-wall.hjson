@@ -1,0 +1,10 @@
+name: Кобальтовая стена
+description: Кобальтовая стена. Защищает постройки от вражеских выстрелов. 
+type: Wall
+health: 400
+size: 1
+requirements: [
+  Cobalt/6
+]
+category: defense
+research: Obsidianit-wall

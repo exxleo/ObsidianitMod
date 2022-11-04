@@ -1,0 +1,7 @@
+type: material
+name: Киберсталь
+description: Очень прочный сплав. Используется для создания защитных сооружений.
+hardness: 4
+cost: 4
+color: A0A0A0FF
+research: Iridium

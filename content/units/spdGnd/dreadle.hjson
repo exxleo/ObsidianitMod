@@ -1,0 +1,80 @@
+type: legs
+name: Dreadle
+description: Attacks with laser beams and volleys of missiles at all enemies nearby.
+speed: 0.5
+health: 1400
+range: 80
+hitSize: 20
+hovering: true
+itemCapacity: 50
+legCount: 6
+legLength: 35
+legPairOffset: 3
+legMoveSpace: 0.8
+legBaseOffset: 8
+legExtension: -20
+landShake: 0.5
+legSpeed: 0.19
+legLengthScl: 0.93
+weapons: [
+    {
+        name: dreadlaser
+        top: true
+        shake: 2
+        shootY: 4
+        reload: 60
+        recoil: 1
+        shootSound: laser
+        x: 10
+        y: -5
+        bullet: {
+            type: LaserBulletType
+            damage: 30
+            width: 30
+            length: 60
+            recoil: 1
+            sideAngle: 45
+            sideWidth: 1
+            sideLength: 40
+            colors: [7457ce66, 7457ce, ffffff]
+            lightningSpacing: 45
+            lightningDelay: 1.1
+            lightningLengthRand: 5
+            lightningColor: bf92f9
+            lightningAngleRand: 40
+            lightningDamage: 20
+        }
+    },
+      {
+      name: rockets
+      reload: 40
+      x: 7
+      rotate: true
+      shake: 1
+      shots: 2
+      inaccuracy: 5
+      velocityRnd: 0.2
+      bullet: {
+        type: MissileBulletType
+        speed: 3
+        damage: 12
+        width: 8
+        height: 8
+        shrinkY: 0
+        drag: -0.003
+        homingRange: 60
+        keepVelocity: false
+        splashDamageRadius: 25
+        splashDamage: 10
+        lifetime: 60
+        trailColor: d06b53
+        backColor: d06b53
+        frontColor: d06b53
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+        weaveScale: 6
+        weaveMag: 1
+    }
+  }
+]
+research: blist

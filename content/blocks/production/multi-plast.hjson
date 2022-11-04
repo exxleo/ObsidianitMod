@@ -1,0 +1,35 @@
+type: GenericSmelter
+name: Мульти компрессор пластана
+description: Улучшенная версия компрессора. Использует взрывчатую смесь для производства пластана.
+liquidCapacity: 60
+size: 3
+itemCapacity: 20
+hasPower: true
+hasLiquids: true
+hasItems: true
+updateEffect: mine
+craftTime: 120
+consumes: {
+  power: 6
+  items: {
+    items: [
+      titanium/6
+      blast-compound/1
+    ]
+  }
+  liquid: {
+    liquid: oil
+    amount: 0.75
+  }
+}
+requirements: [
+  lead/90
+  silicon/50
+  Iridium/80
+  thorium/70
+]
+category: crafting
+research: plastanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: plastanium/4

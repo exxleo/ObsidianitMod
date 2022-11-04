@@ -1,0 +1,32 @@
+name: Регенерирующий купол
+description: Регенерирует постройки в огромном радиусе.
+type: MendProjector
+health: 1280
+size: 3
+color: 84f491
+phase: ffd59e
+hasPower: true
+healPercent: 20
+phaseBoost: 10
+range: 180
+reload: 180
+phaseRangeBoost: 60
+useTime: 180
+itemCapacity: 10
+consumes: {
+  power: 6
+    items: {
+      items: [
+        phase-fabric/1
+      ]
+booster: true
+	optional: true
+   }
+}
+requirements: [
+  Iridium/100
+  silicon/60
+  cybersteel/20
+]
+category: effect
+research: mend-projector

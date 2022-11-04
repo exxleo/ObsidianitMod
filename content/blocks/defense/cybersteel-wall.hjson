@@ -1,0 +1,14 @@
+name: Стена из киберсплава
+description: Очень прочная стена. Идеально подходит для защиты ядра от противников, периодически выпускает электрический заряд при ударе
+type: Wall
+health: 1000
+size: 1
+requirements: [
+  cybersteel/4
+  surge-alloy/3
+]
+category: defense
+research: Iridium-wall
+lightningChance: 0.05
+lightningDamage: 15
+lightningLength: 17

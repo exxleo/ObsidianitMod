@@ -1,0 +1,14 @@
+type: SolarGenerator
+name: Иридиумовая солнечная панель
+description: Обеспечивает небольшое количество энергии от солнца. Более эффективна, чем предыдущие солнечные панели.
+health: 480
+size: 3
+powerProduction: 1.5
+requirements: [
+  lead/90
+  silicon/100
+  phase-fabric/10
+  Iridium/30
+]
+category: power
+research: solar-panel-large

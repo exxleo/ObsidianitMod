@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Плавильня Кобальта
+description: Сплавляет металлолом и медь, для получения кобальта
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+upgradeEffect: none
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      scrap/1
+      copper/2
+    ]
+  }
+}
+requirements: [
+  lead/40
+  graphite/80
+  silicon/70
+]
+category: crafting
+research: plastanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Cobalt/1

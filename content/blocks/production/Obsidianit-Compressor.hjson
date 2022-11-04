@@ -1,0 +1,33 @@
+type: GenericSmelter
+name: Обсидианитовый пресс
+description: Создает Обсидианит путём прессования титана и шлака
+liquidCapacity: 50
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+upgradeEffect: none
+consumes: {
+  power: 1.4
+  items: {
+    items: [
+      titanium/3
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.05
+  }
+}
+requirements: [
+  lead/50
+  copper/80
+  silicon/60
+  titanium/50
+]
+category: crafting
+research: melter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Obsidianit/1

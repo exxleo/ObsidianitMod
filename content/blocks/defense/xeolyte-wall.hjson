@@ -1,0 +1,10 @@
+name: Ксеолитовая стена
+description: Защищает постройки от вражеских снарядов.
+type: Wall
+health: 490
+size: 1
+requirements: [
+  xeolyteobr/6
+]
+category: defense
+research: thorium-wall

@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: Мешалка лавы
+description: Смешивает шлак и огненный порошок, получая лаву.
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 45
+consumes: {
+  power: 1.5
+  items: {
+    items: [
+      ognporoshok/2
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount: 0.1
+  }
+}
+requirements: [
+  copper/70
+  xeolyteobr/50
+  silicon/30
+]
+category: crafting
+research: xeolyte-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputLiquid: lava/3.75

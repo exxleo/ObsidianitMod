@@ -1,0 +1,10 @@
+name: Большая Иридиумовая стена
+description: Очень крепкая стена, идеально подойдёт для защиты ядра и турелей на поздних волнах, размещается на нескольких плитках
+type: Wall
+health: 3600
+size: 2
+requirements: [
+  Iridium/24
+]
+category: defense
+research: Iridium-wall

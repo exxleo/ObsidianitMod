@@ -1,0 +1,7 @@
+type: material
+name: Процессор
+description: Центральный процессор. Сложно создается. Используется для создания продвинутых юнитов.
+hardness: 4
+cost: 4
+color: 45FF67FF
+research: Iridium

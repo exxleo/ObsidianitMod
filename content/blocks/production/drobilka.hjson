@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Дробитель пиротита
+description: Дробит пиротит, получая огненный порошок.
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+upgradeEffect: none
+recurrence: 6
+craftEffect: 	none
+consumes: {
+  power: 1.0
+  items: {
+    items: [
+      pyratite/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  graphite/80
+]
+category: crafting
+research: pyratite-mixer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: ognporoshok/3

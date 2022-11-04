@@ -1,0 +1,56 @@
+name: Rellar
+description: Fires volleys of missiles at all enemies nearby
+commandLimit: 6
+type: naval
+speed: 1
+drag: 0.13
+accel: 0.4
+rotateSpeed: 4
+health: 360
+armor: 2
+range: 180
+itemCapacity: 30
+hitSize: 9
+rotateShooting: false
+immunities: [wet, sapped, sporeSlowed, corroded]
+trailLength: 20
+trailX: 0
+trailY: -5
+
+weapons:[
+    {
+      name: relar-weapon
+      reload: 40
+      rotate: true
+      rotateSpeed: 5
+      shake: 1
+      x: 0
+      y: 0
+      mirror: false
+      shots: 2
+      inaccuracy: 3
+      velocityRnd: 0.2
+      bullet: {
+        type: MissileBulletType
+        speed: 3
+        damage: 30
+        width: 8
+        height: 8
+        shrinkY: 0
+        drag: -0.003
+        homingRange: 60
+        keepVelocity: false
+        splashDamageRadius: 25
+        splashDamage: 10
+        lifetime: 60
+        hitEffect: blastExplosion
+        despawnEffect: blastExplosion
+        weaveScale: 6
+        weaveMag: 1
+    }
+  }
+]
+
+research:{
+  parent: risso
+}

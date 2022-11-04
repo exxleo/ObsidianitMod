@@ -1,0 +1,8 @@
+type: material
+name: Огненный порошок
+description: Порошок из пиротита
+hardness: 2
+cost: 2
+color: EBD53FFF
+research: pyratite
+flammability: 0.4

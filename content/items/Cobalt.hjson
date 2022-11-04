@@ -1,0 +1,7 @@
+type: material
+name: Кобальт
+description: Кобальт я не дам
+hardness: 4
+cost: 2
+color: 284F78FF
+research: slag

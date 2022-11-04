@@ -1,0 +1,40 @@
+type: Separator
+name: Расщепитель
+description: Расщепляет шлак на множество ценных ресурсов. Требует большое количество энергии.
+itemCapacity: 30
+liquidCapacity: 30
+health: 400
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 12
+spinnerSpeed: 16
+consumes: {
+  power: 12
+  liquid: {
+    liquid: slag
+    amount: 0.108333333333
+  }
+}
+requirements: [
+  copper/120
+  lead/90
+  silicon/80
+  titanium/70
+  thorium/60
+]
+category: crafting
+research: disassembler
+loopSound: respawning
+loopSoundVolume: 1.95
+ambientSound: respawning
+ambientSoundVolume: 0.5
+results: [
+    copper/200
+    graphite/150
+    xeolyte/125
+    lead/150
+    titanium/100
+    Iridium/75
+]

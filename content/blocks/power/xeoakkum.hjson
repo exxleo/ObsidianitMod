@@ -1,0 +1,23 @@
+type: battery
+description: Ксеолитовый аккумулятор
+name: Ксеолитовый аккумулятор
+size: 3
+health: 360
+update: true
+solid: true
+hasPower: true
+outputsPower: true
+consumesPower: true
+emptyLightColor: f8c266
+fullLightColor: fb9567
+consumes: {
+  powerBuffered: 70000
+}
+requirements: [
+  lead/70
+  titanium/40
+  silicon/30
+  xeolyteobr/30
+  ]
+category: power
+research: battery
